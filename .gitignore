@@ -1,0 +1,65 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.env
+.env*
+
+# Virtual environments
+**/venv/
+**/env/
+
+# Hugging Face & Torch cache
+.huggingface/
+.cache/
+~/.cache/
+~/.torch/
+
+# Packaging & build artifacts
+*.egg-info/
+*.egg
+build/
+dist/
+
+# VSCode & editor settings
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.pid
+*.tar
+*.container
+
+# Node / React frontend (future-proof)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.turbo/
+frontend/.parcel-cache/
+*.lock
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Media or uploads
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.svg
+
+# SQLite or runtime files
+*.sqlite3
+*.db
